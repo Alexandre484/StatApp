@@ -23,5 +23,6 @@ MCO2022_pub = MCO2022[MCO2022["Statut"] == "Public"]
 #MCO2022_priv = MCO2022[MCO2022["Statut"] == "Privé lucratif" or MCO2022["Statut"] == "Privé non lucratif"]
 
 Urg2022_pub = Urg2022[Urg2022["Statut"] == "Public"]
-#Urg2022_priv = Urg2022[Urg2022["Statut"] == "Privé lucratif" or Urg2022["Statut"]=="Privé non lucratif"]
+Urg2022_priv_luc = Urg2022[Urg2022["Statut"] == "Privé lucratif"]
+Urg2022_priv_non_luc = Urg2022[Urg2022["Statut"]=="Privé non lucratif"]
 
