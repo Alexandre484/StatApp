@@ -1,5 +1,4 @@
-OLS Regression Results 
-Dep. Variable: 	lAID 	R-squared: 	0.714
+ OLS Regression Results Dep. Variable: 	lAID 	R-squared: 	0.714
 Model: 	OLS 	Adj. R-squared: 	0.710
 Method: 	Least Squares 	F-statistic: 	254.3
 Date: 	Fri, 17 Apr 2026 	Prob (F-statistic): 	0.00

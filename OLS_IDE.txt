@@ -1,5 +1,4 @@
-OLS Regression Results 
-Dep. Variable: 	lIDE 	R-squared: 	0.765
+ OLS Regression Results Dep. Variable: 	lIDE 	R-squared: 	0.765
 Model: 	OLS 	Adj. R-squared: 	0.762
 Method: 	Least Squares 	F-statistic: 	328.6
 Date: 	Fri, 17 Apr 2026 	Prob (F-statistic): 	0.00

@@ -1,5 +1,4 @@
-OLS Regression Results 
-Dep. Variable: 	lMED 	R-squared: 	0.817
+ OLS Regression Results Dep. Variable: 	lMED 	R-squared: 	0.817
 Model: 	OLS 	Adj. R-squared: 	0.815
 Method: 	Least Squares 	F-statistic: 	509.7
 Date: 	Fri, 17 Apr 2026 	Prob (F-statistic): 	0.00
