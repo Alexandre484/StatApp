@@ -1,0 +1,62 @@
+
+========================
+Résultat pour lIDE
+========================
+                          IV-2SLS Estimation Summary                          
+==============================================================================
+Dep. Variable:                   lIDE   R-squared:                      0.7960
+Estimator:                    IV-2SLS   Adj. R-squared:                 0.7932
+No. Observations:                2760   F-statistic:                 1.072e+04
+Date:                Fri, Apr 17 2026   P-value (F-stat)                0.0000
+Time:                        08:18:51   Distribution:                 chi2(38)
+Cov. Estimator:                robust                                         
+                                                                              
+                              Parameter Estimates                               
+================================================================================
+              Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------
+Intercept        2.8366     0.0538     52.742     0.0000      2.7312      2.9420
+Statut_PNL      -0.1131     0.0863    -1.3108     0.1899     -0.2823      0.0560
+Statut_PL       -0.1436     0.0862    -1.6653     0.0959     -0.3127      0.0254
+Statut_CHU       1.0036     0.1958     5.1255     0.0000      0.6198      1.3874
+I_PSY           -3.3612     0.4679    -7.1832     0.0000     -4.2784     -2.4441
+I_SSR           -1.2512     0.3243    -3.8588     0.0001     -1.8868     -0.6157
+I_URG           -4.3426     1.4608    -2.9728     0.0030     -7.2057     -1.4795
+I_USLD          -0.4889     0.2888    -1.6926     0.0905     -1.0550      0.0772
+I_SEANCES       -0.7306     0.1760    -4.1521     0.0000     -1.0755     -0.3858
+I_MCO           -0.5195     0.1610    -3.2260     0.0013     -0.8352     -0.2039
+lURG             0.5066     0.1589     3.1877     0.0014      0.1951      0.8180
+lMCO_HP          0.0607     0.0123     4.9439     0.0000      0.0366      0.0847
+lMCO_HC          0.1828     0.0232     7.8804     0.0000      0.1373      0.2283
+lSSR             0.2129     0.0572     3.7228     0.0002      0.1008      0.3249
+lPSY             0.5755     0.0541     10.648     0.0000      0.4696      0.6815
+lSEANCES         0.0863     0.0327     2.6444     0.0082      0.0223      0.1503
+lUSLD            0.1793     0.0899     1.9937     0.0462      0.0030      0.3556
+lURG_PNL        -0.0224     0.0212    -1.0578     0.2902     -0.0640      0.0191
+lMCO_HP_PNL     -0.0063     0.0229    -0.2758     0.7827     -0.0513      0.0386
+lMCO_HC_PNL      0.0301     0.0176     1.7118     0.0869     -0.0044      0.0646
+lSSR_PNL         0.0318     0.0149     2.1422     0.0322      0.0027      0.0610
+lPSY_PNL         0.0184     0.0153     1.2052     0.2281     -0.0115      0.0484
+lSEANCES_PNL     0.0626     0.0261     2.3944     0.0166      0.0113      0.1138
+lUSLD_PNL       -0.0555     0.0283    -1.9621     0.0497     -0.1109  -6.139e-05
+lURG_PL         -0.0320     0.0187    -1.7128     0.0868     -0.0687      0.0046
+lMCO_HP_PL       0.0256     0.0205     1.2478     0.2121     -0.0146      0.0658
+lMCO_HC_PL      -0.0309     0.0193    -1.5968     0.1103     -0.0688      0.0070
+lSSR_PL          0.0126     0.0138     0.9136     0.3609     -0.0145      0.0398
+lPSY_PL         -0.0832     0.0123    -6.7508     0.0000     -0.1074     -0.0591
+lSEANCES_PL      0.0532     0.0210     2.5418     0.0110      0.0122      0.0943
+lUSLD_PL        -0.0691     0.0463    -1.4926     0.1355     -0.1599      0.0216
+lURG_CHU        -0.0360     0.0271    -1.3277     0.1843     -0.0890      0.0171
+lMCO_HP_CHU      0.0303     0.0330     0.9187     0.3583     -0.0344      0.0950
+lMCO_HC_CHU     -0.0495     0.0325    -1.5230     0.1278     -0.1133      0.0142
+lSSR_CHU        -0.0019     0.0214    -0.0885     0.9295     -0.0439      0.0401
+lPSY_CHU        -0.0970     0.0164    -5.9046     0.0000     -0.1291     -0.0648
+lSEANCES_CHU     0.0571     0.0292     1.9547     0.0506     -0.0002      0.1144
+lUSLD_CHU       -0.0627     0.0338    -1.8565     0.0634     -0.1289      0.0035
+lduree_MCO      -0.1251     0.0523    -2.3908     0.0168     -0.2276     -0.0225
+================================================================================
+
+Endogenous: lURG, lMCO_HP, lMCO_HC, lSSR, lPSY, lSEANCES, lUSLD, lURG_PNL, lMCO_HP_PNL, lMCO_HC_PNL, lSSR_PNL, lPSY_PNL, lSEANCES_PNL, lUSLD_PNL, lURG_PL, lMCO_HP_PL, lMCO_HC_PL, lSSR_PL, lPSY_PL, lSEANCES_PL, lUSLD_PL, lURG_CHU, lMCO_HP_CHU, lMCO_HC_CHU, lSSR_CHU, lPSY_CHU, lSEANCES_CHU, lUSLD_CHU, lduree_MCO
+Instruments: lURG_2019, lMCO_HC_2019, lMCO_HP_2019, lSSR_2019, lPSY_2019, lSEANCES_2019, lUSLD_2019, lURG_2019_PNL, lMCO_HC_2019_PNL, lMCO_HP_2019_PNL, lSSR_2019_PNL, lPSY_2019_PNL, lSEANCES_2019_PNL, lUSLD_2019_PNL, lURG_2019_PL, lMCO_HC_2019_PL, lMCO_HP_2019_PL, lSSR_2019_PL, lPSY_2019_PL, lSEANCES_2019_PL, lUSLD_2019_PL, lURG_2019_CHU, lMCO_HC_2019_CHU, lMCO_HP_2019_CHU, lSSR_2019_CHU, lPSY_2019_CHU, lSEANCES_2019_CHU, lUSLD_2019_CHU, lduree_MCO_2019
+Robust Covariance (Heteroskedastic)
+Debiased: False
